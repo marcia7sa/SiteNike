@@ -85,9 +85,7 @@ height: 75%;
 position: relative;/*habilita o z-index*/
 z-index: 1;
 }
-.caixa-imagem{
 
-}
 .caixa-texto{
   max-width: 500px;
 }
