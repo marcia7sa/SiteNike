@@ -129,8 +129,15 @@ z-index: 1;
 @media screen and (max-width: 768px){
 
 
+  body{
+    width: 770px;
+    height: 100%vh;
+  }
+
   .caixa-imagem{
+    position: absolute;
     width: 400px;
+
     height: 200px;
   }
   .caixa-texto{
