@@ -80,7 +80,7 @@ p{
 .caixa-principal{
 
 height:80%;
-display:block;
+display:flex;
 
 justify-content:center;
 align-items: center;
@@ -191,5 +191,20 @@ z-index: 1;
     transform: rotate(-70deg);
     /*Esconde o que sobra*/
   }
+  .caixa-principal{
 
+    height:80%;
+    display: grid;
+
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    position: relative;/*habilita o z-index*/
+    z-index: 1;
+    height: 800px;
+    }
+
+    .caixa-principal .caixa-imagem{
+      display:block;
+    }
 }
