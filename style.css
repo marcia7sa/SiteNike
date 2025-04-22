@@ -78,7 +78,10 @@ p{
   transform: rotate(-25deg);
 }
 .caixa-principal{
-display:flex;
+
+height:80%;
+display:block;
+
 justify-content:center;
 align-items: center;
 height: 75%;
@@ -129,9 +132,10 @@ z-index: 1;
 @media screen and (max-width: 768px){
 
 
-  body{
+  .caixa-principal{
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
   }
 
   .caixa-imagem{
