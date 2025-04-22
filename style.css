@@ -1,0 +1,123 @@
+/*
+cor verde: #a3be52
+cor azul:
+cor rosa:
+*/
+
+body{
+     margin: 0;
+     padding: 0;
+     color: white;
+     background: #ccee66;
+     padding: 2vw 16vw;
+     height: 100vh;
+     font-family: "Noto Sans", sans-serif;
+     overflow: hidden;
+}
+body::before{
+  content:''; /*Esse atributo, conteúdo,  é obrigatorio para o before funcionar, ainda que fique vazio*/
+  background: #202020;
+  width: 100%;
+  height: 120%;
+  position: absolute;
+  top:0;
+  left: -60vw;
+  transform: rotate(-70deg);
+  overflow: hidden;/*Esconde o que sobra*/
+}
+
+body::after{
+  content: 'Nike';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#090909;
+  font-size: 250px;
+  font-weight: bold;
+  opacity: 0.5;
+  overflow: hidden;
+
+}
+
+.logo{
+  margin-top: 30px;
+  width: 80vw;
+  padding: 0;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+p{
+  margin: 3vw 0;
+  font-size: 16px;
+  margin-bottom: 1vw;
+}
+
+.botao-carrinho{
+  background: #a3be52 ;
+  padding: 1vw 20vw;
+  border-radius: 20px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+
+}
+
+.botao-carrinho:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.imagem-tenis{
+  width: 80vw;
+  transform: rotate(-25deg);
+}
+.caixa-principal{
+display:flex;
+justify-content:center;
+align-items: center;
+height: 75%;
+position: relative;/*habilita o z-index*/
+z-index: 1;
+}
+.caixa-imagem{
+
+}
+.caixa-texto{
+  max-width: 50vw;
+}
+.caixa-botoes{
+  margin-top: 2vw;
+  position: relative;
+  display: flex;
+  gap: 20vw;
+  bottom: 0;
+  left: 0;
+  width: 25vw;
+  height: 7vh;
+}
+.botoes{
+    width: 8vw;
+    height: 80vh;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.botoes:active{
+  opacity: 0.6;
+}
+.verde{
+      background: #ccee66;
+}
+.azul{
+      background: #58cced;
+}
+.rosa{
+      background: #ff9eb5;
+}
