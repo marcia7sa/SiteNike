@@ -172,7 +172,7 @@ opacity: 0.6;
   }
 
   .imagem-tenis {
-      max-width: 120%; /* Reduz um pouco o tamanho da imagem */
+      max-width: 100%; /* Reduz um pouco o tamanho da imagem */
   }
 
   .caixa-botoes {
